@@ -14,6 +14,10 @@ module.exports = {
     it: true,
     test: true,
     expect: true,
+    beforeAll: true,
+    beforeEach: true,
+    afterEach: true,
+    afterAll: true,
   },
   parserOptions: {
     ecmaVersion: 2017,
