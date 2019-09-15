@@ -6,8 +6,14 @@
     "start": "node server.js",
     "start:dev": "nodemon server.js",
     "test": "jest",
+    "lint": "./node_modules/.bin/eslint lib",
+    "lint:fix": "npm run lint -- --fix",
+    "docs": "rm -rf docs && jsdoc -c jsdoc.json -d docs",
     "git:push": "git add . && git commit -m \"added codes\" && git push origin master"
   },
+  "pre-commit": [
+    "lint"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://nazmulb:NazB21937A@github.com/nazmulb/unit_test.git"
@@ -22,5 +28,14 @@
   "bugs": {
     "url": "https://github.com/nazmulb/unit_test/issues"
   },
-  "homepage": "https://github.com/nazmulb/unit_test#readme"
+  "homepage": "https://github.com/nazmulb/unit_test#readme",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "ink-docstrap": "^1.3.2",
+    "jsdoc": "^3.6.3",
+    "jsdoc-strip-async-await": "^0.1.0",
+    "pre-commit": "^1.2.2"
+  }
 }
