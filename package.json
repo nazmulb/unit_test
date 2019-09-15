@@ -20,7 +20,8 @@
   "keywords": [
     "unit test",
     "js unit test",
-    "jest"
+    "jest",
+    "test"
   ],
   "author": "Nazmul Basher <nazmul.basher@gmail.com>",
   "license": "ISC",
