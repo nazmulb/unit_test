@@ -1,0 +1,12 @@
+.idea
+node_modules
+**/npm-debug.log
+reports
+coverage
+
+# OS
+.DS_Store
+
+# Misc
+*.swp
+release.properties
