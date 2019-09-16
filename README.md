@@ -2,11 +2,52 @@
 
 This is a simple unit testing framework suing `jest`.
 
+### Overview:
+
+We need the following to have a unit testing framework suing Jest:
+
+- [Jest](https://jestjs.io/en/)
+- [jest-html-reporter](https://www.npmjs.com/package/jest-html-reporter)
+
+### Setup:
+
+Please clone this repo and run the following commands:
+
+```
+git clone https://github.com/nazmulb/unit_test.git
+cd unit_test
+npm i
+```
+
+### Running Tests:
+
+Environment variables are a big part of the configuration on how to run the tests.
+
+Examples:
+
+```cmd
+npm test
+```
+
+### Test Coverage Report:
+
+```cmd
+npm run test:coverage
+```
+
+<img alt="Test Coverage Report" src="https://raw.githubusercontent.com/nazmulb/unit_test/master/images/coverage1.png" width="900px" />
+
+<img alt="Test Coverage Report" src="https://raw.githubusercontent.com/nazmulb/unit_test/master/images/coverage2.png" width="900px" />
+
+### Test Report:
+
+<img alt="Report" src="https://raw.githubusercontent.com/nazmulb/unit_test/master/images/report.png" width="900px" />
+
 ## Jest:
 
 Jest is an open JavaScript testing library from Facebook. Its slogan is "Delightful JavaScript Testing". While Jest can be used to test any JavaScript library, it shines when it comes to React and React Native.
 
-## Getting Started:
+### Getting Started:
 
 Install Jest using `npm`
 
@@ -14,7 +55,7 @@ Install Jest using `npm`
 npm install --save-dev jest
 ```
 
-### Writting our first test:
+#### Writting our first test:
 
 Let's get started by writing a test for a function that adds two numbers. First, create a `sum.js` file:
 
@@ -52,7 +93,7 @@ In our test file we used `describe` and `test`, Jest puts each of these methods 
 - `test(name, fn, timeout)`: All you need in a test file is the test method which runs a test. It also under the alias: it(name, fn, timeout). 
 - there have lot more methods. Here is the [link](https://jestjs.io/docs/en/api)
 
-### Run our test:
+#### Run our test:
 
 Finally, run `npm test` and Jest will print this message:
 
@@ -62,7 +103,6 @@ PASS  ./sum.test.js
 You just successfully wrote your first test using Jest!
 ```
 
-`coverage`:
-```sh
-npm run test-coverage
-```
+You can read more from [here](https://jestjs.io/docs/en/getting-started)
+
+Happy learning :)
