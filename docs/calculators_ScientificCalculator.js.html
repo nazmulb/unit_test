@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Unit Testing Framework Index</title>
+	<title>Unit Testing Framework Source: calculators/ScientificCalculator.js</title>
 
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -60,36 +60,68 @@
 <div class="row">
 
 	
-	<div class="col-md-8">
+	<div class="col-md-12">
 	
 		<div id="main">
 			
 
-	
-	
+		<h1 class="page-title">Source: calculators/ScientificCalculator.js</h1>
+    
+<section>
+    <article>
+        <pre
+            class="sunlight-highlight-javascript linenums">const Calculator = require("../Calculator");
 
+/**
+ * Scientific Calculator Related Methods
+ */
+class ScientificCalculator extends Calculator {
+	/**
+     * Constructor
+     * @param {number} x - value of x
+     * @param {number} y - value of y
+     */
+	constructor(x, y) {
+		super();
+		this.x = x;
+		this.y = y;
+	}
 
+	/**
+     * Power of base number
+     * @returns {number}
+     * @example
+     *      cal.power();
+     */
+	power() {
+		return Math.pow(this.x, this.y);
+	}
 
+	/**
+     * The number with the lowest value
+     * @returns {number}
+     * @example
+     *      cal.min();
+     */
+	min() {
+		return Math.min(this.x, this.y);
+	}
 
+	/**
+     * The number with the highest value
+     * @returns {number}
+     * @example
+     *      cal.max();
+     */
+	max() {
+		return Math.max(this.x, this.y);
+	}
+}
 
-
-
-
-
-
-
-	
-	
-
-
-
-
-
-    <section class="readme-section">
-        <article><h1>Unit Testing Framework</h1></article>
-    </section>
-
-
+module.exports = ScientificCalculator;
+</pre>
+    </article>
+</section>
 
 
 
@@ -100,10 +132,6 @@
 
 	<div class="clearfix"></div>
 
-	
-		<div class="col-md-3">
-			<div id="toc" class="col-md-3 hidden-xs hidden-sm hidden-md"></div>
-		</div>
 	
 
 </div>

@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Unit Testing Framework Index</title>
+	<title>Unit Testing Framework Source: calculators/StandardCalculator.js</title>
 
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -60,36 +60,48 @@
 <div class="row">
 
 	
-	<div class="col-md-8">
+	<div class="col-md-12">
 	
 		<div id="main">
 			
 
-	
-	
+		<h1 class="page-title">Source: calculators/StandardCalculator.js</h1>
+    
+<section>
+    <article>
+        <pre
+            class="sunlight-highlight-javascript linenums">const Calculator = require("../Calculator");
 
+/**
+ * Standard Calculator Related Methods
+ */
+class StandardCalculator extends Calculator {
+	/**
+     * Constructor
+     * @param {number} x - value of x
+     * @param {number} y - value of y
+     */
+	constructor(x, y) {
+		super();
+		this.x = x;
+		this.y = y;
+	}
 
+	/**
+     * Sum of two numbers
+     * @returns {number}
+     * @example
+     *      cal.sum();
+     */
+	sum() {
+		return this.add();
+	}
+}
 
-
-
-
-
-
-
-
-
-	
-	
-
-
-
-
-
-    <section class="readme-section">
-        <article><h1>Unit Testing Framework</h1></article>
-    </section>
-
-
+module.exports = StandardCalculator;
+</pre>
+    </article>
+</section>
 
 
 
@@ -100,10 +112,6 @@
 
 	<div class="clearfix"></div>
 
-	
-		<div class="col-md-3">
-			<div id="toc" class="col-md-3 hidden-xs hidden-sm hidden-md"></div>
-		</div>
 	
 
 </div>

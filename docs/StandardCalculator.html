@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Unit Testing Framework Class: Helper</title>
+	<title>Unit Testing Framework Class: StandardCalculator</title>
 
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -65,16 +65,16 @@
 		<div id="main">
 			
 
-	<h1 class="page-title">Class: Helper</h1>
+	<h1 class="page-title">Class: StandardCalculator</h1>
 <section>
 
 <header>
     
         <h2>
-        Helper
+        StandardCalculator
         </h2>
         
-            <div class="class-description"><p>Helper Related Methods</p></div>
+            <div class="class-description"><p>Standard Calculator Related Methods</p></div>
         
     
 </header>
@@ -86,19 +86,97 @@
         
 <hr>
 <dt>
-    <h4 class="name" id="Helper"><span class="type-signature"></span>new Helper()</h4>
+    <h4 class="name" id="StandardCalculator"><span class="type-signature"></span>new StandardCalculator(x, y)</h4>
     
     
 </dt>
 <dd>
 
     
-
+    <div class="description">
+        <p>Constructor</p>
+    </div>
     
 
     
 
     
+
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>x</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>value of x</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>y</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>value of y</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
     
 
     
@@ -136,8 +214,8 @@
 	<dd class="tag-source">
 		<ul class="dummy">
 			<li>
-				<a href="Helper.js.html">Helper.js</a>,
-				 <a href="Helper.js.html#sunlight-1-line-4">line 4</a>
+				<a href="calculators_StandardCalculator.js.html">calculators/StandardCalculator.js</a>,
+				 <a href="calculators_StandardCalculator.js.html#sunlight-1-line-12">line 12</a>
 			</li>
 		</ul>
 	</dd>
@@ -188,7 +266,7 @@
             
 <hr>
 <dt>
-    <h4 class="name" id="countWords"><span class="type-signature"></span>countWords(str)</h4>
+    <h4 class="name" id="sum"><span class="type-signature"></span>sum()</h4>
     
     
 </dt>
@@ -196,7 +274,7 @@
 
     
     <div class="description">
-        <p>Count words</p>
+        <p>Sum of two numbers</p>
     </div>
     
 
@@ -205,56 +283,6 @@
     
 
     
-    
-        <h5>Parameters:</h5>
-        
-
-<table class="params table table-striped">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>str</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">string</span>
-
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>given string</p></td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
     
 
     
@@ -292,8 +320,8 @@
 	<dd class="tag-source">
 		<ul class="dummy">
 			<li>
-				<a href="Helper.js.html">Helper.js</a>,
-				 <a href="Helper.js.html#sunlight-1-line-31">line 31</a>
+				<a href="calculators_StandardCalculator.js.html">calculators/StandardCalculator.js</a>,
+				 <a href="calculators_StandardCalculator.js.html#sunlight-1-line-24">line 24</a>
 			</li>
 		</ul>
 	</dd>
@@ -321,10 +349,6 @@
     <h5>Returns:</h5>
     
             
-<div class="param-desc">
-    <p>count - no of words</p>
-</div>
-
 
 
 <dl>
@@ -346,527 +370,7 @@
     
         <h5>Example</h5>
         
-    <pre class="sunlight-highlight-javascript">helper.countWords(&quot;This is a word&quot;);</pre>
-
-
-    
-</dd>
-
-        
-            
-<hr>
-<dt>
-    <h4 class="name" id="letterCount"><span class="type-signature"></span>letterCount(str, char)</h4>
-    
-    
-</dt>
-<dd>
-
-    
-    <div class="description">
-        <p>Count letter</p>
-    </div>
-    
-
-    
-
-    
-
-    
-    
-        <h5>Parameters:</h5>
-        
-
-<table class="params table table-striped">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>str</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">string</span>
-
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>given string</p></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>char</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">string</span>
-
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>given character</p></td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-    
-
-    
-<dl class="details">
-    
-
-	
-
-	
-
-	
-
-    
-
-    
-
-    
-
-    
-
-	
-
-	
-
-	
-
-	
-
-	
-
-
-
-	
-	<dt class="tag-source method-doc-label method-doc-details-label">Source:</dt>
-	<dd class="tag-source">
-		<ul class="dummy">
-			<li>
-				<a href="Helper.js.html">Helper.js</a>,
-				 <a href="Helper.js.html#sunlight-1-line-13">line 13</a>
-			</li>
-		</ul>
-	</dd>
-	
-
-	
-
-	
-
-	
-</dl>
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <h5>Returns:</h5>
-    
-            
-<div class="param-desc">
-    <p>count - no of characters</p>
-</div>
-
-
-
-<dl>
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type">number</span>
-
-
-
-    </dd>
-</dl>
-
-
-        
-
-    
-        <h5>Example</h5>
-        
-    <pre class="sunlight-highlight-javascript">helper.letterCount(&quot;test&quot;, &quot;t&quot;);</pre>
-
-
-    
-</dd>
-
-        
-            
-<hr>
-<dt>
-    <h4 class="name" id="validateEmail"><span class="type-signature"></span>validateEmail(str)</h4>
-    
-    
-</dt>
-<dd>
-
-    
-    <div class="description">
-        <p>Validate email</p>
-    </div>
-    
-
-    
-
-    
-
-    
-    
-        <h5>Parameters:</h5>
-        
-
-<table class="params table table-striped">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>str</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">string</span>
-
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>given string</p></td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-    
-
-    
-<dl class="details">
-    
-
-	
-
-	
-
-	
-
-    
-
-    
-
-    
-
-    
-
-	
-
-	
-
-	
-
-	
-
-	
-
-
-
-	
-	<dt class="tag-source method-doc-label method-doc-details-label">Source:</dt>
-	<dd class="tag-source">
-		<ul class="dummy">
-			<li>
-				<a href="Helper.js.html">Helper.js</a>,
-				 <a href="Helper.js.html#sunlight-1-line-42">line 42</a>
-			</li>
-		</ul>
-	</dd>
-	
-
-	
-
-	
-
-	
-</dl>
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <h5>Returns:</h5>
-    
-            
-
-
-<dl>
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type">boolean</span>
-
-
-
-    </dd>
-</dl>
-
-
-        
-
-    
-        <h5>Example</h5>
-        
-    <pre class="sunlight-highlight-javascript">helper.validateEmail(&quot;nazmul.basher@gmail.com&quot;);</pre>
-
-
-    
-</dd>
-
-        
-            
-<hr>
-<dt>
-    <h4 class="name" id="validatePhone"><span class="type-signature"></span>validatePhone(str)</h4>
-    
-    
-</dt>
-<dd>
-
-    
-    <div class="description">
-        <p>Validate phone</p>
-    </div>
-    
-
-    
-
-    
-
-    
-    
-        <h5>Parameters:</h5>
-        
-
-<table class="params table table-striped">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>str</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">string</span>
-
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>given string</p></td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-    
-
-    
-<dl class="details">
-    
-
-	
-
-	
-
-	
-
-    
-
-    
-
-    
-
-    
-
-	
-
-	
-
-	
-
-	
-
-	
-
-
-
-	
-	<dt class="tag-source method-doc-label method-doc-details-label">Source:</dt>
-	<dd class="tag-source">
-		<ul class="dummy">
-			<li>
-				<a href="Helper.js.html">Helper.js</a>,
-				 <a href="Helper.js.html#sunlight-1-line-54">line 54</a>
-			</li>
-		</ul>
-	</dd>
-	
-
-	
-
-	
-
-	
-</dl>
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <h5>Returns:</h5>
-    
-            
-
-
-<dl>
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type">boolean</span>
-
-
-
-    </dd>
-</dl>
-
-
-        
-
-    
-        <h5>Example</h5>
-        
-    <pre class="sunlight-highlight-javascript">helper.validateEmail(&quot;+1 (612) 545-9852&quot;);</pre>
+    <pre class="sunlight-highlight-javascript">cal.sum();</pre>
 
 
     
