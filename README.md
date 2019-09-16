@@ -1,10 +1,10 @@
 # Unit Testing Framework
 
-This is a simple unit testing framework suing `jest`.
+This is a simple unit testing framework using `jest`.
 
 ### Overview:
 
-We need the following to have a unit testing framework suing Jest:
+We need the following to have a unit testing framework using Jest:
 
 - [Jest](https://jestjs.io/en/)
 - [jest-html-reporter](https://www.npmjs.com/package/jest-html-reporter)
