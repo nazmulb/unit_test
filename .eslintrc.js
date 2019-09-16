@@ -37,5 +37,7 @@ module.exports = {
     "func-names": "off",
     "max-len": ["error", { "code": 150 }],
     "prefer-arrow-callback": "off",
+    "no-useless-escape": "off",
+    "no-unneeded-ternary": "off",
   },
 };
