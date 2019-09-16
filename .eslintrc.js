@@ -39,5 +39,6 @@ module.exports = {
     "prefer-arrow-callback": "off",
     "no-useless-escape": "off",
     "no-unneeded-ternary": "off",
+    "no-restricted-properties": "off",
   },
 };
