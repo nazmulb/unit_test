@@ -13,7 +13,7 @@ We need the following to have a unit testing framework using Jest:
 
 Please clone this repo and run the following commands:
 
-```
+```sh
 git clone https://github.com/nazmulb/unit_test.git
 cd unit_test
 npm i
@@ -21,13 +21,13 @@ npm i
 
 ### Running Tests:
 
-```cmd
+```sh
 npm test
 ```
 
 ### Test Coverage Report:
 
-```cmd
+```sh
 npm run test:coverage
 ```
 
@@ -93,7 +93,7 @@ In our test file we used `describe` and `test`, Jest puts each of these methods 
 
 Finally, run `npm test` and Jest will print this message:
 
-```cmd
+```sh
 PASS  ./sum.test.js
 ✓ adds 1 + 2 to equal 3 (5ms)
 You just successfully wrote your first test using Jest!
