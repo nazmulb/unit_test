@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/nazmulb/unit_test.svg?style=svg)](https://circleci.com/gh/nazmulb/unit_test)
+
 # Unit Testing Framework
 
 This is a simple unit testing framework using Jest.
