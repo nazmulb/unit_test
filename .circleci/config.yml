@@ -38,10 +38,6 @@ jobs:
       - run:
           name: Run Test
           command: npm test
-      - run:
-          name: Generate Test Coverage Report
-          command: npm run test:coverage
-          when: always
       - store_test_results:
           path: ./reports
       - store_artifacts:
