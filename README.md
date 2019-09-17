@@ -1,6 +1,6 @@
 # Unit Testing Framework
 
-This is a simple unit testing framework using `jest`.
+This is a simple unit testing framework using Jest.
 
 ### Overview:
 
