@@ -21,10 +21,6 @@ npm i
 
 ### Running Tests:
 
-Environment variables are a big part of the configuration on how to run the tests.
-
-Examples:
-
 ```cmd
 npm test
 ```
