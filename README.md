@@ -5,7 +5,7 @@
 [![GitHub commits](https://badgen.net/github/commits/nazmulb/unit_test)](https://github.com/nazmulb/unit_test/commits/master)
 [![GitHub stars](https://badgen.net/github/stars/nazmulb/unit_test)](https://github.com/nazmulb/unit_test)
 
-This is a simple unit testing framework using Jest.
+This is a unit testing framework using Jest.
 
 ### Overview:
 
