@@ -1,6 +1,9 @@
-[![CircleCI](https://circleci.com/gh/nazmulb/unit_test.svg?style=svg)](https://circleci.com/gh/nazmulb/unit_test)
-
 # Unit Testing Framework
+
+[![CircleCI Build Status](https://badgen.net/circleci/github/nazmulb/unit_test)](https://circleci.com/gh/nazmulb/unit_test)
+[![GitHub Last commit](https://badgen.net/github/last-commit/nazmulb/unit_test)](https://github.com/nazmulb/unit_test)
+[![GitHub commits](https://badgen.net/github/commits/nazmulb/unit_test)](https://github.com/nazmulb/unit_test/commits/master)
+[![GitHub stars](https://badgen.net/github/stars/nazmulb/unit_test)](https://github.com/nazmulb/unit_test)
 
 This is a simple unit testing framework using Jest.
 
